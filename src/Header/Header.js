@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './Header.css';
-import logo from './logo.png';
-import fbIcon from './fb-icon.png';
-import twitIcon from './twit-icon.png';
-import gpIcon from './gp-icon.png';
-import instaIcon from './insta-icon.png';
-import flicIcon from './flic-icon.png';
-import pintIcon from './pint-icon.png';
-import rssIcon from './rss-icon.png';
-import mailIcon from './mail-icon.png';
+import logo from '../assets/logo.png';
+import fbIcon from '../assets/fb-icon.png';
+import twitIcon from '../assets/twit-icon.png';
+import gpIcon from '../assets/gp-icon.png';
+import instaIcon from '../assets/insta-icon.png';
+import flicIcon from '../assets/flic-icon.png';
+import pintIcon from '../assets/pint-icon.png';
+import rssIcon from '../assets/rss-icon.png';
+import mailIcon from '../assets/mail-icon.png';
 
 
 class Header extends Component {
