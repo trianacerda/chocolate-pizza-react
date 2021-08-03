@@ -15,10 +15,19 @@ class Header extends Component {
     render() { 
         return (  
             <header>
-                <div className='top-left'>
-                    <img className='big-fork-spoon' src={logo} alt='forkSpoon'/>
-                </div>
-                <section className='top-right-wrapper'>
+                <img className='big-fork-spoon' src={logo} alt='forkSpoon'/>
+                <ButtonList/>
+            </header>
+        );
+    }
+}
+ 
+export default Header;
+
+class ButtonList extends Component {
+    render() { 
+        return (
+            <section className='top-right-wrapper'>
                     <div className='top-right'>
                         <img className='facebook' src={fbIcon} alt='fbIcon'/>
                         <img className='twitter' src={twitIcon} alt='twitIcon'/>
@@ -32,9 +41,6 @@ class Header extends Component {
                         <img className='mail' src={mailIcon} alt='mailIcon'/>
                     </div>
                 </section>
-            </header>
-        );
+          );
     }
 }
- 
-export default Header;
