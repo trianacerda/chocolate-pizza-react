@@ -3,7 +3,12 @@
     border-color: blue;
     border-width: 5px;
 }
-/* .list-img {
+.ingredients {
     background-image: url('../assets/list-bg.png');
     background-repeat: no-repeat;
-} */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ul li{
+    list-style: none;
+}
