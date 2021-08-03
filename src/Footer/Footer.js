@@ -6,6 +6,7 @@ class Footer extends Component {
     render() { 
         return ( 
             <footer className='footer-section' alt='footer-section'>
+                <hr/>
                 <img src={smallLogo} alt='small-logo'/>
                 <p> 
                 Delicious &copy; 2013 . All Rights Reserved.
