@@ -102,7 +102,7 @@ class ImagineSection extends Component {
 //     },
 //     {
 //         id: 12, 
-//         name: 'honey roasted pevans, roughly chopped',
+//         name: 'honey roasted pecans, roughly chopped',
 //         amount: '1 cup',
 //     },
 // ]
